@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WebCam</title>
+    <title>🎂Happy-Birthday</title>
+    <link rel="stylesheet" type="text/css" href="firework.css"></link>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script defer src="script.js"></script>
     <style>
         body{
@@ -16,9 +19,45 @@
             justify-content: center;
             align-items: center;
         }
+
+        .anime{
+        border-style: solid;
+        border-color: aqua;
+        border-radius: 25px;
+        }
+        .overlay{
+            
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            
+        }
+        
     </style>
 </head>
 <body>
-    <video id="video" height="560" width="720" autoplay muted></video>
+    <div class="overlay pyro">
+        <div class="shake-slow shake-constant">
+        <h1 class="animated fadeInRightBig delay-2s">HAPPY</h1>
+        <h1>&nbsp;</h1>
+        <h1 class="animated fadeInRightBig delay-3s">BIRTHDAY</h1> 
+        <br />
+        <h1 class="animated fadeInRightBig delay-4s"> 🎂</h1>     
+        </div>
+            <div class="before"></div>
+            <div class="after"></div>
+        <div class="">
+            
+        </div>
+
+    </div>
+    
+    
+    <video id="video" height="540" width="720" autoplay muted>
+    
+    </video>
+
+    
 </body>
 </html>
